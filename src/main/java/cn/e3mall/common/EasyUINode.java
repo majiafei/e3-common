@@ -1,6 +1,13 @@
 package cn.e3mall.common;
 
-public class EasyUINode {
+import java.io.Serializable;
+
+public class EasyUINode implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4256281056994703786L;
 	
 	private long id;
 	private String text;
